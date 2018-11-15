@@ -4,7 +4,7 @@ import os.path
 def sequence_reader(filepath):
        # check that the file exists by 
     assert os.path.exists(filepath)
-   sequence_set = dendropy.DnaCharacterMatrix.get(
+    sequence_set = dendropy.DnaCharacterMatrix.get(
         path=filepath,
         schema="phylip"
 )

@@ -1,5 +1,7 @@
 from Bio.Blast import NCBIWWW
 from Bio import SeqIO
+import os
+
 
 def sequence_blaster(fasta_path, results_path):
   #check that the file is in fasta format
